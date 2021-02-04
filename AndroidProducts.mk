@@ -21,11 +21,11 @@
 # definition file).
 #
 
-# inherit device config for Project-Awaken
+# inherit device config for Project-Corvus
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/awaken_wayne.mk
+    $(LOCAL_DIR)/corvus_wayne.mk
 
 COMMON_LUNCH_CHOICES := \
-    awaken_wayne-eng \
-    awaken_wayne-userdebug \
-    awaken_wayne-user
+    corvus_wayne-eng \
+    corvus_wayne-userdebug \
+    corvus_wayne-user
