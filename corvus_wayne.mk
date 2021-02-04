@@ -28,7 +28,6 @@ $(call inherit-product, device/xiaomi/wayne/device.mk)
 $(call inherit-product, vendor/corvus/config/common_full_phone.mk)
 
 # Gapps
-USE_GAPPS := true
 TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 1080
 
@@ -58,6 +57,3 @@ PRODUCT_MODEL := MI 6X
 # Maintainer
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.corvus.maintainer=RonaldSantos
-
-# OFFICIAL Corvus Build
-RAVEN_LAIR=Official
