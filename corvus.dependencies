@@ -24,6 +24,12 @@
     "remote": "github"
   },
   {
+    "repository":  "xiaomi-sdm660/android_vendor_xiaomi_MiuiCamera",
+    "target_path": "vendor/xiaomi/MiuiCamera",
+    "branch": "master",
+    "remote": "github"
+  },
+  {
     "repository":  "LineageOS/android_hardware_qcom_audio",
     "target_path": "hardware/qcom-caf/msm8998/audio",
     "branch": "lineage-18.1-caf-msm8998",
